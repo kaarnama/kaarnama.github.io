@@ -25,14 +25,14 @@ layout: default
                 <div class="row">
                     <div id="primary" class="content-area">
                         <div id="content" class="site-content">
-                            {% for post in site.posts %}
+                            {% for post in site.posts limit:3 %}
                             <div class="post format-image hentry">
 
                                 <div class="entry-format">
                                     <div class="entry-meta">
                                         <div class="entry-date">
                                             <a href="#">
-                                                <time class="published" datetime="2014-12-13" title="December 13, 2014 - 21:12 pm">Dec<span class="date">13</span>2014</time>
+                                                <time class="published" >Dec<span class="date">13</span>2014</time>
                                             </a>
                                         </div><!-- end entry-date -->
 
@@ -86,7 +86,7 @@ layout: default
 
                     <div id="secondary" class="col-md-4">
 
-
+                       
 
                         <div class="widget post-type-widget">
                             <div class="widget-title-outer">
@@ -94,9 +94,7 @@ layout: default
                             </div>
                             <ul>
                                 <li>
-                                    <span class="post-category">
-                                        <a href="#">Uncategorized</a>
-                                    </span>
+
                                     <figure class="post-thumbnail">
                                         <a href="#"><img src="images/content/thumb-post-01.jpg" alt=""></a>
                                     </figure>
@@ -104,50 +102,7 @@ layout: default
                                         <a href="#">Lorem Ipsum Dolor Sit Amet, Consetetuer Adipiscing Elit</a>
                                     </h2>
                                 </li>
-                                <li>
-                                    <span class="post-category">
-                                        <a href="#">Building</a>
-                                    </span>
-                                    <figure class="post-thumbnail">
-                                        <a href="#"><img src="images/content/thumb-post-01.jpg" alt=""></a>
-                                    </figure>
-                                    <h2 class="post-title">
-                                        <a href="#">Euismod Tincidunt ut Laoreet Dolore Magna Aliquam</a>
-                                    </h2>
-                                </li>
-                                <li>
-                                    <span class="post-category">
-                                        <a href="#">Uncategorized</a>
-                                    </span>
-                                    <figure class="post-thumbnail">
-                                        <a href="#"><img src="images/content/thumb-post-01.jpg" alt=""></a>
-                                    </figure>
-                                    <h2 class="post-title">
-                                        <a href="#">Ullamcorper Suscipit Lobortis Nisl ut Aliquip Commodo Consequat</a>
-                                    </h2>
-                                </li>
-                                <li>
-                                    <span class="post-category">
-                                        <a href="#">Commercial</a>
-                                    </span>
-                                    <figure class="post-thumbnail">
-                                        <a href="#"><img src="images/content/thumb-post-01.jpg" alt=""></a>
-                                    </figure>
-                                    <h2 class="post-title">
-                                        <a href="#">Quod Mazim Placerat Facer Possim Assum</a>
-                                    </h2>
-                                </li>
-                                <li>
-                                    <span class="post-category">
-                                        <a href="#">Renovation</a>
-                                    </span>
-                                    <figure class="post-thumbnail">
-                                        <a href="#"><img src="images/content/thumb-post-01.jpg" alt=""></a>
-                                    </figure>
-                                    <h2 class="post-title">
-                                        <a href="#">Claritas est Etiam Processus Dynamicus</a>
-                                    </h2>
-                                </li>
+                                              
                             </ul>
                             </div><!-- end widget -->
 
