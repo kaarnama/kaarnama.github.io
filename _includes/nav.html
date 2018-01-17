@@ -18,18 +18,18 @@
           <nav id="primary-navigation" class="site-navigation navbar-collapse collapse" role="navigation">
             <div class="nav-menu">
               <ul class="menu">
-                <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="index.html">Home</a></li>
-                <li class="{% if page.url == '/services.html' %}active{% endif %}"><a href="services.html">Services</a></li>
-                <li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="blog.html">Blog</a></li>
-                <li class="{% if page.url == '/faq.html' %}active{% endif %}"><a href="faq.html">FAQ</a></li>
-                <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="contact.html">Contact</a></li>
+                <li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}index.html">Home</a></li>
+                <li class="{% if page.url == '/services.html' %}active{% endif %}"><a href="{{site.baseurl}}services.html">Services</a></li>
+                <li class="{% if page.url == '/blog.html' %}active{% endif %}"><a href="{{site.baseurl}}blog.html">Blog</a></li>
+                <li class="{% if page.url == '/faq.html' %}active{% endif %}"><a href="{{site.baseurl}}faq.html">FAQ</a></li>
+                <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a href="{{site.baseurl}}contact.html">Contact</a></li>
 
                 </ul>
               </div><!-- end nav-menu -->
             </nav><!-- end #primary-navigation -->
 
             <div class="appoinment-header">
-              <a href="contact.html" class="btn btn-md btn-default">Make an Appoinment</a>
+              <a href="{{site.baseurl}}contact.html" class="btn btn-md btn-default">Make an Appoinment</a>
             </div>
 
           </div><!-- end row -->
