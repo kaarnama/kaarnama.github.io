@@ -6793,7 +6793,7 @@ table tbody {
   text-align: center;
 }
 .post.format-image:before {
-  content: "\f1c5";
+  /*content: "\f1c5"; */
 }
 .post.format-video:before {
   content: "\f03d";

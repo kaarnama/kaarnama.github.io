@@ -25,7 +25,7 @@ layout: default
                 <div class="row">
                     <div id="primary" class="content-area">
                         <div id="content" class="site-content">
-
+                            {% for post in site.posts %}
                             <div class="post format-image hentry">
 
                                 <div class="entry-format">
@@ -36,32 +36,7 @@ layout: default
                                             </a>
                                         </div><!-- end entry-date -->
 
-                                        <div class="social-shares">
-                                            <i class="fa fa-fw fa-share-alt"></i>
-                                            <a href="#">Share This</a>
-                                            <div class="other-share">
-                                                <a href="#" class="facebook">
-                                                    <i class="fa fa-fw fa-facebook"></i>
-                                                    <span class="icon-title">Facebook</span>
-                                                </a>
-                                                <a href="#" class="twitter">
-                                                    <i class="fa fa-fw fa-twitter"></i>
-                                                    <span class="icon-title">Twitter</span>
-                                                </a>
-                                                <a href="#" class="linkedin">
-                                                    <i class="fa fa-fw fa-linkedin"></i>
-                                                    <span class="icon-title">Linkedin</span>
-                                                </a>
-                                                <a href="#" class="google-plus">
-                                                    <i class="fa fa-fw fa-google-plus"></i>
-                                                    <span class="icon-title">Google Plus</span>
-                                                </a>
-                                                <a href="#" class="pinterest">
-                                                    <i class="fa fa-fw fa-pinterest"></i>
-                                                    <span class="icon-title">Pinterest</span>
-                                                </a>
-                                            </div><!-- end other-share -->
-                                        </div><!-- end social-share -->
+
 
                                     </div><!-- end entry-meta -->
                                 </div><!-- end entry-format -->
@@ -70,181 +45,26 @@ layout: default
 
                                     <div class="entry-header">
                                         <span class="author vcard">
-                                            Posted by <a href="#">Johnny Kurniawan</a>
-                                        </span><!-- end author -->
-                                        <span class="cat-links">
-                                            <a href="#">mechanical</a>,
-                                            <a href="#">random</a>,
-                                            <a href="#">photography</a>
-                                        </span><!-- end cat-links -->
-                                        <div class="comment-link">
-                                            <i class="fa fa-fw fa-comments"></i>
-                                            <a href="#">3 Comments</a>
-                                        </div>
+                                            Posted by <a href="#">{{post.author}}</a>
+
                                     </div><!-- end entry-header -->
 
                                     <h1 class="entry-title">
-                                        <a href="#">Typi Non Habent Claritatem Insitam Est Usus Legentis in Qui Facit Eorum Claritatem</a>
-                                    </h1>
+                                        <a href="#">{{post.title}}</h1>
 
                                     <div class="entry-media">
-                                        <img src="images/content/media-01.jpg" alt="">
+                                        <img src="{{post.image}}" alt="">
                                     </div><!-- end entry-media -->
 
                                     <div class="entry-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
+                                        <p>{{post.content}}</p>
                                     </div>
 
                                 </div><!-- end inner -->
 
                             </div><!-- end format-image hentry -->
 
-                                                        <div class="post format-image hentry">
-
-                                                            <div class="entry-format">
-                                                                <div class="entry-meta">
-                                                                    <div class="entry-date">
-                                                                        <a href="#">
-                                                                            <time class="published" datetime="2014-12-13" title="December 13, 2014 - 21:12 pm">Dec<span class="date">13</span>2014</time>
-                                                                        </a>
-                                                                    </div><!-- end entry-date -->
-
-                                                                    <div class="social-shares">
-                                                                        <i class="fa fa-fw fa-share-alt"></i>
-                                                                        <a href="#">Share This</a>
-                                                                        <div class="other-share">
-                                                                            <a href="#" class="facebook">
-                                                                                <i class="fa fa-fw fa-facebook"></i>
-                                                                                <span class="icon-title">Facebook</span>
-                                                                            </a>
-                                                                            <a href="#" class="twitter">
-                                                                                <i class="fa fa-fw fa-twitter"></i>
-                                                                                <span class="icon-title">Twitter</span>
-                                                                            </a>
-                                                                            <a href="#" class="linkedin">
-                                                                                <i class="fa fa-fw fa-linkedin"></i>
-                                                                                <span class="icon-title">Linkedin</span>
-                                                                            </a>
-                                                                            <a href="#" class="google-plus">
-                                                                                <i class="fa fa-fw fa-google-plus"></i>
-                                                                                <span class="icon-title">Google Plus</span>
-                                                                            </a>
-                                                                            <a href="#" class="pinterest">
-                                                                                <i class="fa fa-fw fa-pinterest"></i>
-                                                                                <span class="icon-title">Pinterest</span>
-                                                                            </a>
-                                                                        </div><!-- end other-share -->
-                                                                    </div><!-- end social-share -->
-
-                                                                </div><!-- end entry-meta -->
-                                                            </div><!-- end entry-format -->
-
-                                                            <div class="inner">
-
-                                                                <div class="entry-header">
-                                                                    <span class="author vcard">
-                                                                        Posted by <a href="#">Johnny Kurniawan</a>
-                                                                    </span><!-- end author -->
-                                                                    <span class="cat-links">
-                                                                        <a href="#">mechanical</a>,
-                                                                        <a href="#">random</a>,
-                                                                        <a href="#">photography</a>
-                                                                    </span><!-- end cat-links -->
-                                                                    <div class="comment-link">
-                                                                        <i class="fa fa-fw fa-comments"></i>
-                                                                        <a href="#">3 Comments</a>
-                                                                    </div>
-                                                                </div><!-- end entry-header -->
-
-                                                                <h1 class="entry-title">
-                                                                    <a href="#">Typi Non Habent Claritatem Insitam Est Usus Legentis in Qui Facit Eorum Claritatem</a>
-                                                                </h1>
-
-                                                                <div class="entry-media">
-                                                                    <img src="images/content/media-01.jpg" alt="">
-                                                                </div><!-- end entry-media -->
-
-                                                                <div class="entry-content">
-                                                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
-                                                                </div>
-
-                                                            </div><!-- end inner -->
-
-                                                        </div><!-- end format-image hentry -->
-
-
-                                                                                    <div class="post format-image hentry">
-
-                                                                                        <div class="entry-format">
-                                                                                            <div class="entry-meta">
-                                                                                                <div class="entry-date">
-                                                                                                    <a href="#">
-                                                                                                        <time class="published" datetime="2014-12-13" title="December 13, 2014 - 21:12 pm">Dec<span class="date">13</span>2014</time>
-                                                                                                    </a>
-                                                                                                </div><!-- end entry-date -->
-
-                                                                                                <div class="social-shares">
-                                                                                                    <i class="fa fa-fw fa-share-alt"></i>
-                                                                                                    <a href="#">Share This</a>
-                                                                                                    <div class="other-share">
-                                                                                                        <a href="#" class="facebook">
-                                                                                                            <i class="fa fa-fw fa-facebook"></i>
-                                                                                                            <span class="icon-title">Facebook</span>
-                                                                                                        </a>
-                                                                                                        <a href="#" class="twitter">
-                                                                                                            <i class="fa fa-fw fa-twitter"></i>
-                                                                                                            <span class="icon-title">Twitter</span>
-                                                                                                        </a>
-                                                                                                        <a href="#" class="linkedin">
-                                                                                                            <i class="fa fa-fw fa-linkedin"></i>
-                                                                                                            <span class="icon-title">Linkedin</span>
-                                                                                                        </a>
-                                                                                                        <a href="#" class="google-plus">
-                                                                                                            <i class="fa fa-fw fa-google-plus"></i>
-                                                                                                            <span class="icon-title">Google Plus</span>
-                                                                                                        </a>
-                                                                                                        <a href="#" class="pinterest">
-                                                                                                            <i class="fa fa-fw fa-pinterest"></i>
-                                                                                                            <span class="icon-title">Pinterest</span>
-                                                                                                        </a>
-                                                                                                    </div><!-- end other-share -->
-                                                                                                </div><!-- end social-share -->
-
-                                                                                            </div><!-- end entry-meta -->
-                                                                                        </div><!-- end entry-format -->
-
-                                                                                        <div class="inner">
-
-                                                                                            <div class="entry-header">
-                                                                                                <span class="author vcard">
-                                                                                                    Posted by <a href="#">Johnny Kurniawan</a>
-                                                                                                </span><!-- end author -->
-                                                                                                <span class="cat-links">
-                                                                                                    <a href="#">mechanical</a>,
-                                                                                                    <a href="#">random</a>,
-                                                                                                    <a href="#">photography</a>
-                                                                                                </span><!-- end cat-links -->
-                                                                                                <div class="comment-link">
-                                                                                                    <i class="fa fa-fw fa-comments"></i>
-                                                                                                    <a href="#">3 Comments</a>
-                                                                                                </div>
-                                                                                            </div><!-- end entry-header -->
-
-                                                                                            <h1 class="entry-title">
-                                                                                                <a href="#">Typi Non Habent Claritatem Insitam Est Usus Legentis in Qui Facit Eorum Claritatem</a>
-                                                                                            </h1>
-
-                                                                                            <div class="entry-media">
-                                                                                                <img src="images/content/media-01.jpg" alt="">
-                                                                                            </div><!-- end entry-media -->
-
-                                                                                            <div class="entry-content">
-                                                                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</p>
-                                                                                            </div>
-
-                                                                                        </div><!-- end inner -->
-
-                                                                                    </div><!-- end format-image hentry -->
+                        {% endfor %}                           
 
 
 
