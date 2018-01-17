@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blogsingle
 title: 5 Things to Know About Your Car
 meta: nil
 author: Kaarnama Motors

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blogsingle
 title: When To Change Engine Oil
 meta: nil
 author: Kaarnama Motors
