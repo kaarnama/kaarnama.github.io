@@ -13931,6 +13931,12 @@ html[xmlns] .slides {
   #gallery-grid img{
     width: 95%;
   }
+  .entry-date{
+    display:none;
+  }
+  .head-title{
+    display:none;
+  }
   #brand-categories-grid{
     padding: 0;
     display: none;
