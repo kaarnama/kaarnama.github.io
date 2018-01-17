@@ -6362,13 +6362,13 @@ button.close {
 
 }
 #gallery-grid img{
-  flex: 1 1 25%;
+  flex: 1 1 auto;
   object-fit: cover;
   margin: 1rem;
 }
 #gallery-grid img{
   height:  250px;
-  width: 45%;
+  width: 25%;
 }
 #estimates-head{
   text-align: center;
