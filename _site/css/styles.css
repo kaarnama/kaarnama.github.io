@@ -1980,6 +1980,9 @@ table th[class*="col-"] {
   min-height: 0.01%;
 }
 @media screen and (max-width: 768px) {
+  .head-title{
+    display: none;
+  }
   .entry-format{
     display: none;
   }
