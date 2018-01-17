@@ -1983,6 +1983,9 @@ table th[class*="col-"] {
   .entry-format{
     display: none;
   }
+  .entry-meta{
+    display: none;
+  }
   .table-responsive {
     width: 100%;
     margin-bottom: 15.75px;
@@ -14062,6 +14065,7 @@ html[xmlns] .slides {
 
   .entry-format {
     float: none;
+    display: none;
   }
 
   .comment-respond {
