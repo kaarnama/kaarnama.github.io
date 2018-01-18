@@ -4090,7 +4090,7 @@ tbody.collapse.in {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 18px;
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
@@ -6647,6 +6647,11 @@ button.close {
   font-size: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.blog-content{
+  color: #555;
+  margin-top: 3rem;
+  line-height: 1.5;
 }
 .blog-section .entry-header .entry-title a {
   color: #f9c937;
