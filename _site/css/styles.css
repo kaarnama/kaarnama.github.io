@@ -4010,7 +4010,7 @@ tbody.collapse.in {
   color: #777777;
 }
 
-/*.pagination {
+.pagination {
   display: inline-block;
   padding-left: 0;
   margin: 21px 0;
@@ -4102,26 +4102,7 @@ tbody.collapse.in {
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
 }
-*/
-.pagination a, .pagination span {
-  padding: 7px 18px;
-  border: 1px solid #eee;
-  margin-left: -2px;
-  margin-right: -2px;
-  background-color: #ffffff;
-  display: inline-block;
-}
 
-.pagination a {    
-  &:hover {
-      background-color: #f1f1f1;
-      color: #333;
-  }
-}
-
-.pagination {
-  text-align: center;
-}
 .pager {
   padding-left: 0;
   margin: 21px 0;
