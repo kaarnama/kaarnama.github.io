@@ -2,5 +2,5 @@ markdown: kramdown
 url: https://kaarnama.github.io
 exclude: ['README.md']
 paginate_path: "blog/page:num"
-paginate: 4
+paginate: 3
 plugins_dir: [jekyll-paginate, jekyll-sitemap]
