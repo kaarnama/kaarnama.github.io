@@ -6545,7 +6545,7 @@ button.close {
   display: flex;
 }
 .testimonials-grid-item{
-  background: none repeat scroll 0 0 #f5f5f5;
+  /*background: none repeat scroll 0 0 #f5f5f5; */
   padding: 3rem;
   margin: 1rem;
   display: flex;
@@ -7540,7 +7540,7 @@ table tbody {
 }
 .related-title a {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .comment-outer {
@@ -13928,13 +13928,18 @@ html[xmlns] .slides {
 
 @media (max-width: 768px) {
   body{
-    margin-top: 55px;
+    margin-top: 53px;
   }
+  .testimonials-grid-item{
+    padding: 2rem .5rem 2rem 2rem;
+  }
+  
   .testimonial-avatar{
-    margin:  2.5rem -4.5rem 0;
+    margin:  2.5rem 0 0;
   }
   .testimonial-body>p{
-    margin: 2rem -.5rem 0 -2rem;
+    margin: 2rem 0 0 0;
+    padding: 0 1rem 0 0;
   }
   #gallery-grid img{
     width: 95%;
