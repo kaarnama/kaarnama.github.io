@@ -1,5 +1,5 @@
 markdown: kramdown
-url: https://kaarnama.github.io
+url: https://www.kaarnamamotors.com
 exclude: ['README.md']
 paginate_path: "blog/page:num"
 paginate: 3
