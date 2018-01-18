@@ -6648,10 +6648,10 @@ button.close {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.blog-content{
+.entry-content p{
   color: #555;
-  margin-top: 3rem;
-  line-height: 1.5;
+  
+ 
 }
 .blog-section .entry-header .entry-title a {
   color: #f9c937;
@@ -6864,7 +6864,7 @@ table tbody {
 }
 
 .entry-content {
-  margin-top: 15px;
+  margin-top: 30px;
   line-height: 1.7em;
 }
 .entry-content h1, .entry-content h2, .entry-content h3 {
