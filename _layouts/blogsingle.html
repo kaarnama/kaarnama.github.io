@@ -54,7 +54,7 @@ layout: default
                                     <h1 class="entry-title">
                                         <a href="#">{{page.title}}</h1>
 
-                                    <div class="entry-content">
+                                    <div class="entry-content blk">
                                         
                                         <figure class="wp-caption">
                                             <img src="{{page.image}}" alt="">
@@ -88,33 +88,17 @@ layout: default
                             <div class="related-content">
                                 <h2>Related Content</h2>
                                 <div class="row">
-
+                                {% for post in site.related_posts limit:3 %}
                                     <div class="col-md-4">
                                         <figure>
-                                            <img src="images/content/blog-thumb-01.jpg" alt="">
+                                            <a href="{{site.baseurl}}{{post.url}}"><img src="{{ post.image }}" alt=""></a>
                                         </figure>
                                         <div class="related-title">
-                                            <h3><a href="#">Claritas est etiam processus dynamicus</a></h3>
+                                            <h3><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h3>
                                         </div>
                                     </div><!-- end column -->
 
-                                    <div class="col-md-4">
-                                        <figure>
-                                            <img src="images/content/blog-thumb-01.jpg" alt="">
-                                        </figure>
-                                        <div class="related-title">
-                                            <h3><a href="#">Claritas est etiam processus dynamicus</a></h3>
-                                        </div>
-                                    </div><!-- end column -->
-
-                                    <div class="col-md-4">
-                                        <figure>
-                                            <img src="images/content/blog-thumb-01.jpg" alt="">
-                                        </figure>
-                                        <div class="related-title">
-                                            <h3><a href="#">Claritas est etiam processus dynamicus</a></h3>
-                                        </div>
-                                    </div><!-- end column -->
+                                {% endfor %}    
 
                                 </div><!-- end row -->
                             </div><!-- end related-content -->

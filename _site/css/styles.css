@@ -6862,6 +6862,9 @@ table tbody {
 .entry-content {
   margin-top: 30px;
   line-height: 1.7em;
+  color: #fff;
+}
+.entry-content.blk{
   color: #555;
 }
 .blog-content{
