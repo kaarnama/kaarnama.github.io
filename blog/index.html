@@ -57,8 +57,9 @@ layout: default
                                     </div><!-- end entry-media -->
 
                                     <div class="entry-content">
-                                        <p class="blog-content">{{post.content}}</p>
+                                        <p class="blog-content">{{post.content | truncate: 170}}</p>
                                     </div>
+									<button class="btn btn-sm btn-primary-white"><a href="{{site.baseurl}}{{post.url}}">Read More</a></button>
 
                                 </div><!-- end inner -->
 
