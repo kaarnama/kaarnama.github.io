@@ -751,6 +751,9 @@ dd {
 
 
 @media (min-width: 768px) {
+  .blog-inner-main{
+    margin-top: 150px;
+  }
   .dl-horizontal dt {
     float: left;
     width: 160px;
