@@ -13941,13 +13941,23 @@ html[xmlns] .slides {
     padding: 2rem .5rem 2rem 2rem;
     background: none repeat scroll 0 0 #f5f5f5;
   }
+  .testimonials-grid-item h4{
+    margin-left: 1rem;
+  }
+  .star-rating{
+    margin-left: 1rem;
+  }
+  .quote-icon{
+    display:none;
+  }
   
   .testimonial-avatar{
     margin:  2.5rem 0 0;
   }
   .testimonial-body>p{
     margin: 2rem 0 0 0;
-    padding: 0 1rem 0 0;
+    padding: 0 2rem 0 1rem;
+    text-align: justify;
   }
   #gallery-grid img{
     width: 95%;
