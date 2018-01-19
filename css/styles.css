@@ -651,6 +651,9 @@ a.text-danger:hover {
 .bg-primary {
   background-color: #103b7a;
 }
+#call-now-btn{
+  color: #fff;
+}
 
 a.bg-primary:hover {
   background-color: #0a254d;
