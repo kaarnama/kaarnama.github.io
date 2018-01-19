@@ -6991,6 +6991,9 @@ table tbody {
   margin: 15px 0 40px;
   position: relative;
 }
+.contact-msg{
+  margin-top:55px;
+}
 .entry-title:before {
   content: "";
   position: absolute;
@@ -7493,7 +7496,7 @@ table tbody {
 }
 
 .author-wrapper {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   margin-top: -10px;
   margin-bottom: 20px;
 }
@@ -14052,6 +14055,9 @@ html[xmlns] .slides {
   .faq-contact-section .row {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .faq-sec{
+    margin-top:70px;
   }
 
   .service-col figure {
