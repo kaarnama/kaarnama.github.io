@@ -32,7 +32,7 @@ layout: default
                                     <div class="entry-meta">
                                         <div class="entry-date">
                                             <a href="#">
-                                                <time class="published" >Dec<span class="date">13</span>2014</time>
+                                                <time class="published" >{{ post.date | date: "%B"}}<span class="date">{{ post.date | date: "%-d"}}</span>{{ post.date | date: "%Y"}}</time>
                                             </a>
                                         </div><!-- end entry-date -->
 

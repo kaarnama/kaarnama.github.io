@@ -318,7 +318,7 @@ layout: home
         </figure>
         <div class="inner">
           <div class="entry-header">
-            <time class="published" datetime="2014-12-13" title="December 13, 2014 - 21:12 pm">December 13, 2014</time>
+            <time class="published" datetime="{{ post.date | date_to_long_string }}" title="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
             <h2 class="post-title entry-title">
               <a href="{{site.baseurl}}{{post.url}}">{{post.title | strip_html | truncate:25}}</a>
             </h2>
