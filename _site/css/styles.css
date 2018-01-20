@@ -6136,7 +6136,7 @@ button.close {
 #banner-contact {
   background: rgba(7, 160, 220, 0.9);
   margin-left: 5rem;
-  padding: 2rem 5rem;
+  padding:  10rem 5rem 2rem 5rem;
   color: #fff;
 }
 #banner-main{
@@ -13935,6 +13935,7 @@ html[xmlns] .slides {
 @media (min-width: 768px) and (max-width: 992px) {
   .appoinment-header{
     display:none;
+
   }
   #estimates-grid{
     flex-direction: column;
@@ -13961,7 +13962,10 @@ html[xmlns] .slides {
     width: 50%;
   }
 }
-@media (min-width: 468px) and (max-width: 768px) {
+@media (min-width: 468px) and (max-width: 769px) {
+  .site-header .navbar-toggle{
+    padding:25px;
+  }
   #banner{
     background-size: 230vw 90vh;
   }
@@ -13975,11 +13979,19 @@ html[xmlns] .slides {
   }
   #gallery-grid img{
     width: 80%;
+    height: 300px;
     margin: 1rem auto;
   }
 
 }
 @media (max-width: 468px) {
+  #primary-navigation{
+    padding-bottom: 2rem;
+    
+  }
+  .navbar-brand{
+    padding: 16px;
+  }
   #banner{
   background-size: 340vw 90vh;
   }
@@ -13996,7 +14008,7 @@ html[xmlns] .slides {
   }
   #primary-navigation{
     border-top: 1px solid #e1e1e1;
-    padding-bottom: 2rem;
+    
   }
   .testimonials-grid-item{
     padding: 2rem .5rem 2rem 2rem;
@@ -14037,9 +14049,7 @@ html[xmlns] .slides {
   #estimates-grid{
     flex-direction: column;
   }
-  .navbar-brand{
-    padding: 16px;
-  }
+
   .entry-meta{
 	  display: none;
   }
