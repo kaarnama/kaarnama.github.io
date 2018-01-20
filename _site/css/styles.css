@@ -651,6 +651,9 @@ a.text-danger:hover {
 .bg-primary {
   background-color: #103b7a;
 }
+#call-now-btn{
+  color: #fff;
+}
 
 a.bg-primary:hover {
   background-color: #0a254d;
@@ -7122,6 +7125,7 @@ table tbody {
   padding-right: 15px;
   margin-bottom: 30px;
 }
+
 @media (min-width: 992px) {
   .service-col-sq {
     float: left;
@@ -13927,14 +13931,65 @@ html[xmlns] .slides {
     right: 5%;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .appoinment-header{
+    display:none;
+  }
+  #estimates-grid{
+    flex-direction: column;
+  }
+  .estimates-grid-item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  #gallery-grid img{
+    width: 45%;
+  }
+  #banner-main h2{
+    font-size: 36px;
+  }
+  #banner-main p{
+    margin: 2rem 0 2rem 3rem;
+  }
+
+}
 @media (min-width: 768px) and (min-width: 992px) {
   .site-navigation {
     float: left;
     width: 50%;
   }
 }
+@media (min-width: 468px) and (max-width: 768px) {
+  #banner{
+    background-size: 230vw 90vh;
+  }
+  #estimates-grid{
+    flex-direction: column;
+  }
+  .estimates-grid-item{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  #gallery-grid img{
+    width: 80%;
+    margin: 1rem auto;
+  }
 
+}
+@media (max-width: 468px) {
+  #banner{
+  background-size: 340vw 90vh;
+  }
+  #gallery-grid img{
+    width: 95%;
+  }
+}
 @media (max-width: 768px) {
+  .appoinment-header{
+    display:none;
+  }
   body{
     margin-top: 53px;
   }
@@ -13964,9 +14019,7 @@ html[xmlns] .slides {
     padding: 0 2.5rem 0 1rem;
     text-align: justify;
   }
-  #gallery-grid img{
-    width: 95%;
-  }
+
   #brand-categories-grid{
     padding: 0;
     display: none;
@@ -13997,7 +14050,6 @@ html[xmlns] .slides {
     flex-direction: column-reverse;
     height: auto;
     background-repeat: no-repeat;
-    background-size: 340vw 90vh;
     background-position-x: 60%;
   }
   #banner-main{
