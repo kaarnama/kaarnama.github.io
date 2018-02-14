@@ -6579,6 +6579,11 @@ button.close {
   display: flex;
   margin: 2.5rem 0 0;
 }
+.testimonial-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .avatar-image img{
   border-radius: 50%;
   padding: 0 1rem;
